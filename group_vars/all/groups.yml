@@ -1,0 +1,39 @@
+active_directory_groups:
+  # departments
+  hr:
+    description: 'human resource'
+    path: 'OU=departments'
+  ops:
+    description: 'operations'
+    path: 'OU=departments'
+  devs:
+    description: 'developers'
+    path: 'OU=departments'
+  # services
+  jira-users:
+    description: 'jira users'
+    path: 'OU=services'
+  gitlab-users:
+    description: 'gitlab users'
+    path: 'OU=services'
+  kubernetes-users:
+    description: 'kubernetes users'
+    path: 'OU=services'
+  kubernetes-admins:
+    description: 'kubernetes admins'
+    path: 'OU=services'
+
+active_directory_default_groups:
+  hr:
+    - hr
+    - jira-users
+  ops:
+    - ops
+    - jira-users
+    - gitlab-users
+    - kubernetes-admins
+  devs:
+    - devs
+    - jira-users
+    - gitlab-users
+    - kubernetes-users

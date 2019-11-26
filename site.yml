@@ -1,0 +1,7 @@
+---
+- name: ad server
+  hosts: windows
+  remote_user: ansible
+  roles:
+    - ad
+

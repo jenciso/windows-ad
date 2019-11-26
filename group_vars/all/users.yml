@@ -1,0 +1,51 @@
+active_directory_users:
+  ### HR
+  - name: maria.jimenez
+    first_name: 'Maria'
+    last_name: 'Jimenez'
+    password: 'NotSecret..$'
+    path: 'OU=hr'
+    description: 'A simple user'
+    groups: "{{ active_directory_default_groups['hr'] }}"
+
+  - name: carlos.sanchez
+    first_name: 'Carlos'
+    last_name: 'Sanchez'
+    password: 'NotSecret..$'
+    path: 'OU=hr'
+    description: 'A simple user'
+    groups: "{{ active_directory_default_groups['hr'] }}"
+
+  ### OPS
+  - name: juan.enciso
+    first_name: 'Juan'
+    last_name: 'Enciso'
+    password: 'SuperSecret2012'
+    path: 'OU=ops'
+    description: 'A simple user'
+    groups: "{{ active_directory_default_groups['ops'] }}"
+
+  - name: roberto.bolanos
+    first_name: 'Roberto'
+    last_name: 'Bolanos'
+    password: 'SuperSecret2012'
+    path: 'OU=ops'
+    description: 'A simple user'
+    groups: "{{ active_directory_default_groups['ops'] }}"
+
+  ### DEVS
+  - name: edgar.vivar
+    first_name: 'Edgar'
+    last_name: 'Vivar'
+    password: 'MegaSecret2012'
+    path: 'OU=devs'
+    description: 'A simple user'
+    groups: "{{ active_directory_default_groups['devs'] }}"
+
+  - name: ramon.valdes
+    first_name: 'Ramon'
+    last_name: 'Valdes'
+    password: 'MegaSecret2012'
+    path: 'OU=devs'
+    description: 'A simple user'
+    groups: "{{ active_directory_default_groups['devs'] }}"
