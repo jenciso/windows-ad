@@ -1,16 +1,16 @@
 active_directory_users:
   ### HR
-  - name: maria.jimenez
-    first_name: 'Maria'
-    last_name: 'Jimenez'
+  - name: angelines.fernandez
+    first_name: 'Angelines'
+    last_name: 'Fernandez'
     password: 'NotSecret..$'
     path: 'OU=hr'
     description: 'A simple user'
     groups: "{{ active_directory_default_groups['hr'] }}"
 
-  - name: carlos.sanchez
-    first_name: 'Carlos'
-    last_name: 'Sanchez'
+  - name: ruben.aguirre
+    first_name: 'Ruben'
+    last_name: 'Aguirre'
     password: 'NotSecret..$'
     path: 'OU=hr'
     description: 'A simple user'

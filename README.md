@@ -15,14 +15,14 @@ wget https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/Co
 
 Create OU:
 
-POA
+CORP
   GROUPS
     DEPARTMENTS
     SERVICES
   USERS
-    devs
-    ops
-    hr
+    DEVS
+    OPS
+    HR
 
 
 https://github.com/ianunruh/ansible-role-active-directory
