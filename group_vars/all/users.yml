@@ -3,15 +3,15 @@ active_directory_users:
   - name: angelines.fernandez
     first_name: 'Angelines'
     last_name: 'Fernandez'
-    password: 'NotSecret..$'
+    password: 'NotSecret2012'
     path: 'OU=hr'
     description: 'A simple user'
     groups: "{{ active_directory_default_groups['hr'] }}"
 
-  - name: ruben.aguirre
-    first_name: 'Ruben'
-    last_name: 'Aguirre'
-    password: 'NotSecret..$'
+  - name: ramon.valdes
+    first_name: 'Ramon'
+    last_name: 'Valdes'
+    password: 'NotSecret2012'
     path: 'OU=hr'
     description: 'A simple user'
     groups: "{{ active_directory_default_groups['hr'] }}"
@@ -42,9 +42,9 @@ active_directory_users:
     description: 'A simple user'
     groups: "{{ active_directory_default_groups['devs'] }}"
 
-  - name: ramon.valdes
-    first_name: 'Ramon'
-    last_name: 'Valdes'
+  - name: ruben.aguirre
+    first_name: 'Ruben'
+    last_name: 'Aguirre'
     password: 'MegaSecret2012'
     path: 'OU=devs'
     description: 'A simple user'
